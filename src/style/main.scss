@@ -1,0 +1,112 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.font-family {
+    font-family: Arial, sans-serif;
+}
+
+// Палитра
+$primary-color: #828282;
+$secondary-color: #333333;
+
+// Шаблон
+.wrapper {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    min-width: 280px;
+}
+
+.container {
+    padding: 0px 10px 0px 10px;
+}
+
+// Основные стили
+.table-header {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.thank-you-message {
+    color: #828282;
+    line-height: 22px;
+}
+
+.order-name {
+    font-style: italic;
+    font-family: "Times New Roman", Times, sans-serif;
+    color: #4f4f4f;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.order-subname-title {
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+}
+
+.order-subname-value {
+    font-size: 14px;
+    line-height: 19px;
+    color: #191e27;
+}
+
+.order-amount {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.order-total-price {
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.order-size-title {
+    font-size: 14px;
+    line-height: 19px;
+    color: #191e27;
+}
+
+.order-color-title {
+    font-size: 14px;
+    line-height: 19px;
+    color: #191e27;
+    padding: 0px 14px 0px 0px;
+}
+
+.picked-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 50%;
+    border: 1px solid #828282;
+}
+
+.vendor-code {
+    color: #dbdbdb;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.small-table-span {
+    display: inline-block;
+    vertical-align: top;
+    &--first {
+        padding: 0px 37px 0px 0px;
+    }
+}
+
+.note {
+    color: #828282;
+    line-height: 22px;
+}
+
